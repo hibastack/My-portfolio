@@ -41,9 +41,13 @@ function Navbar() {
 <a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Contact</a>
       </div>
 
+<a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">
+  
       <button className="hidden md:block bg-[#F2C14E] text-black px-4 py-2 rounded hover:bg-[#e0b03d]">
         Contact Me
       </button>
+</a>
+
 
     </nav>
   );
