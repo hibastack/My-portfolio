@@ -13,6 +13,7 @@ const Contact = () => {
                 <li><a href="mailto:hkonval900@gmail.com">Email: hkonval900@gmail.com</a></li>
                 <li><a href="tel:+923204992627">Phone: 0320-4992627</a></li>
                 <li><a href="https://www.linkedin.com/in/hiba-arshad-4770253a1" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://www.fiverr.com/s/P42ek1w" target='_blank'>Contact me at FIVERR</a></li>
             </ul>
         </section>
         <section className='m-5 p-3 w-1/2 border border-[#263039]  rounded-xl'>

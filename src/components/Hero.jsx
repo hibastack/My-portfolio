@@ -22,13 +22,17 @@ const Hero = () => {
         </p>
 
         <div className="mt-6">
-          <button className="m-2 bg-[#F2C14E] text-black hover:text-white px-4 py-2 rounded hover:bg-[#e0b03d]">
+          <a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">
+            <button className="m-2 bg-[#F2C14E] text-black hover:text-white px-4 py-2 rounded hover:bg-[#e0b03d]">
             Get in Touch
           </button>
+          </a>
 
-          <button className="bg-[#10151A] border border-[#263039] text-[#4FD1C5] px-4 py-2 rounded hover:bg-[#4FD1C5] hover:text-white">
+         <a href="#project" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">
+           <button className="bg-[#10151A] border border-[#263039] text-[#4FD1C5] px-4 py-2 rounded hover:bg-[#4FD1C5] hover:text-white">
             View Projects
           </button>
+         </a>
         </div>
       </section>
 
