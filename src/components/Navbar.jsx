@@ -1,14 +1,13 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="relative z-50 m-2 border-b-2 border-[#263039] flex items-center justify-between md:justify-start gap-4 md:gap-20 p-5">
+    <nav className="relative z-50 m-2 border-b-2 border-[#263039] flex items-center justify-between md:justify-start gap-4 md:gap-20 p-4 md:p-5">
 
-      <div className="text-2xl font-bold">
+      <div className="text-xl md:text-2xl font-bold">
         HIBA
       </div>
 
@@ -36,18 +35,22 @@ function Navbar() {
         `}
       >
         <a href="#home" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Home</a>
-<a href="#about" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">About</a>
-<a href="#project" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Services</a>
-<a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Contact</a>
+        <a href="#about" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">About</a>
+        <a href="#project" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Services</a>
+        <a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Contact</a>
+
+        <a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:hidden py-2">
+          <button className="bg-[#F2C14E] text-black px-4 py-2 rounded hover:bg-[#e0b03d] w-full">
+            Contact Me
+          </button>
+        </a>
       </div>
 
-<a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">
-  
-      <button className="hidden md:block bg-[#F2C14E] text-black px-4 py-2 rounded hover:bg-[#e0b03d]">
-        Contact Me
-      </button>
-</a>
-
+      <a href="#contact" className="hidden md:block">
+        <button className="bg-[#F2C14E] text-black px-4 py-2 rounded hover:bg-[#e0b03d]">
+          Contact Me
+        </button>
+      </a>
 
     </nav>
   );
