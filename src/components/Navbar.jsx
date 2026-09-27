@@ -35,10 +35,10 @@ function Navbar() {
           pointer-events-auto
         `}
       >
-        <NavLink to="/" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Home</NavLink>
-        <NavLink to="/About" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">About</NavLink>
-        <NavLink to="/Project" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Services</NavLink>
-        <NavLink to="/Contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Contact</NavLink>
+        <a href="#home" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Home</a>
+<a href="#about" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">About</a>
+<a href="#project" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Services</a>
+<a href="#contact" onClick={() => setMenuOpen(false)} className="w-full md:w-auto py-2">Contact</a>
       </div>
 
       <button className="hidden md:block bg-[#F2C14E] text-black px-4 py-2 rounded hover:bg-[#e0b03d]">

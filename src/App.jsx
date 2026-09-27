@@ -11,18 +11,29 @@ function App() {
     <div>
       <Navbar />
 
-      <Reveal>
-        <Hero />
-      </Reveal>
-      <Reveal>
-        <About />
-      </Reveal>
-      <Reveal>
-        <Project />
-      </Reveal>
-      <Reveal>
-        <Contact />
-      </Reveal>
+      <div id="home">
+        <Reveal>
+          <Hero />
+        </Reveal>
+      </div>
+
+      <div id="about">
+        <Reveal>
+          <About />
+        </Reveal>
+      </div>
+
+      <div id="project">
+        <Reveal>
+          <Project />
+        </Reveal>
+      </div>
+
+      <div id="contact">
+        <Reveal>
+          <Contact />
+        </Reveal>
+      </div>
     </div>
   );
 }
