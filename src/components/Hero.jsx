@@ -42,7 +42,7 @@ const Hero = () => {
             <p className="text-xl ">Backend</p>
             <p>Node.js · Express · MongoDB</p>
         </div>
-        <div className=" hover:border-teal-400 transition-colors duration-300 bg-[#1C242D] mb-4 border text-[#4FD1C5] border-[#263039] p-4 rounded-xl border-r-0">
+        <div className="i hover:border-teal-400 transition-colors duration-300 bg-[#1C242D] mb-4 border text-[#4FD1C5] border-[#263039] p-4 rounded-xl border-r-0">
             <p className="text-xl ">Tools</p>
             <p className="">HTML5
 . CSS3

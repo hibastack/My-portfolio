@@ -29,7 +29,7 @@ const Project = () => {
         <div className= ' hover:border-teal-400  hover:shadow-2xl transform hover:-translate-y-2 transition-colors duration-300  border border-[#263039] p-4 rounded-xl '>
         <h1>04</h1>
         <p className='text-white'>Portfolio Website</p>
-        <p>A personal portfolio site showcasing projects and skills, built with a clean layout and smooth scroll animations</p>
+        <p>A personal portfolio site showcasing projects and skills, built with a clean layout and smooth scroll animations </p>
         <p className='text-[#4FD1C5]'>React · Express · MongoDB · Tailwind CSS</p>
        </div>
         </section>
